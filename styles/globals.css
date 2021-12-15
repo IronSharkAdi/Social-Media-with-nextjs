@@ -2,3 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800&display=swap');
+
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+@layer components{
+    .icon{
+        @apply hidden md:inline-flex p-2 h-10 bg-gray-200  w-10 rounded-full hover:bg-gray-300 cursor-pointer text-gray-700
+
+    }
+    
+}
