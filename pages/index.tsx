@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 import Header from "../components/Header";
 import Sidebar from '../components/Sidebar';
 
+import Feed from '../components/Feed'
 
 const Home: NextPage = () => {
   const router = useRouter()
@@ -20,8 +21,11 @@ const Home: NextPage = () => {
               <title>Social Media</title>
           </Head>
             <Header/>
-          <main className='flex'>
+          <main className='flex justify-between '>
             <Sidebar/>
+            <Feed/>
+            <Sidebar/>
+
           </main>
       </div>
   )
