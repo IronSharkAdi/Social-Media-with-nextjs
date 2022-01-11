@@ -1,4 +1,5 @@
 import type {NextPage} from 'next'
+import InputBox from './InputBox';
 import Stories from './Stories';
 
 const Sidebar: NextPage = () => {
@@ -6,6 +7,7 @@ const Sidebar: NextPage = () => {
         <>
             <div>
                 <Stories/>
+                <InputBox/>
             </div>
         </>
     )
